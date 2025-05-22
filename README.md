@@ -48,4 +48,3 @@ _Add relevant screenshots of dashboards, CLI setups, or services._
 ## 🧠 Inspiration
 - [Homelab Subreddit](https://www.reddit.com/r/homelab/)
 - [Awesome-Selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
-- 
