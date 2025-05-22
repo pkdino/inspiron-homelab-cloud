@@ -1,16 +1,17 @@
-# Dell Inspiron Homelab / Cloud Server Project 🖥️☁️
+# Dell Inspiron Homelab / Cloud Server Project 🖥️☁️ 
 
 ## 🚀 Project Overview
-This project transforms an old Dell Inspiron into a personal homelab/cloud server for cybersecurity, networking, and cloud computing practice.
+This project transforms my old Dell Inspiron into a personal homelab/cloud server for cybersecurity, networking, and cloud computing practice. This is also to completely understand the trial and error process for making homelabs, and curating them to my personal needs.
 
-## 🔧 Hardware Specs
-- **Model**: Dell Inspiron (specify model)
-- **CPU**: Intel/AMD (specify)
-- **RAM**: (e.g., 8GB DDR3)
-- **Storage**: (e.g., 256GB SSD)
+## 🔧 Hardware Specs (if it has a check, it has been added to the desktop build, if not, its in progress)
+- **Model**: Dell Inspiron 3646
+- **CPU**: Intel
+- **RAM**: 2x4GB DDR3 SO-DIMM, 1.35V
+- **Storage**: 2.5" SATA SSD (120-500GB) (_thinking of getting an HDD_)
+- **Network**: Ethernet
 
 ## 💿 Installed OS
-- **OS**: (e.g., Ubuntu Server 22.04 LTS)
+- **OS**: Linux (Ubuntu Server)
 - Installed via bootable USB using [Rufus/BalenaEtcher](https://www.balena.io/etcher/)
 
 ## 🧰 Services & Tools
@@ -33,8 +34,15 @@ This project transforms an old Dell Inspiron into a personal homelab/cloud serve
 - Deploy containerized services with Docker
 - Explore networking with DNS/VPN setups
 
-## 📸 Screenshots
-_Add relevant screenshots of dashboards, CLI setups, or services._
+## 📦 What You Can Do with This Homelab
+
+- Pi-hole *(Ad-blocking DNS server)*: Lightweight; runs on even Raspberry Pi Zero
+- Web hosting *(static or small dynamic sites)*: Apache, Nginx, Flask, or Node.js – perfect for practice
+- Self-hosted services *(like Gitea, Portainer, or DuckDNS)*: Just keep resource limits in mind
+- Linux-based pentesting labs *(e.g. Kali, Metasploit)*: Also lightweigh; best when using lightweight distros or CLI tools
+- Basic containerization *(A docker)*: With caution	Limit container count due to RAM/CPU
+- Basic file server or media server: Use Samba or Plex with low-res files
+- Learning firewalls, DNS, port management: Ideal for this kind of practice
 
 ## 📚 Notes & Challenges
 - Learned how to configure `iptables` firewall rules
